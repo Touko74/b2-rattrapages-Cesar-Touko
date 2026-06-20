@@ -1,0 +1,11 @@
+Title	URL	priorité
+En tant qu'utilisateur, je veux consulter la liste des menus et leurs ingrédients afin de choisir en connaissance de cause	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/1	Haute
+En tant qu'utilisateur, je veux voir le détail de chaque ingrédient afin de vérifier allergènes et composition	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/5	Moyen
+En tant qu'utilisateur, je veux choisir un créneau de retrait afin d'organiser mon passage	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/6	Haute
+En tant qu'utilisateur, je veux payer via Apple Pay, Google Pay ou carte bancaire afin de régler ma commande rapidement	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/7	Haute
+En tant qu'utilisateur, je veux recevoir une confirmation de commande afin d'être sûr qu'elle a bien été enregistrée	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/8	Moyen
+En tant qu'utilisateur, je veux modifier ou annuler ma commande avant validation afin de corriger une erreur	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/9	Haute
+En tant qu'administrateur, je veux ajouter, modifier ou supprimer des ingrédients et menus afin de garder le catalogue à jour	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/10	Basse
+En tant qu'administrateur, je veux gérer les créneaux de retrait disponibles afin d'éviter la surcharge en cuisine	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/11	Moyen
+En tant qu'administrateur, je veux consulter les statistiques des menus les plus commandés afin d'ajuster l'offre	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/12	Basse
+En tant que staff, je veux recevoir les commandes en temps réel afin de les préparer dans les délais	https://github.com/Touko74/b2-rattrapages-Cesar-Touko/issues/13	Haute
