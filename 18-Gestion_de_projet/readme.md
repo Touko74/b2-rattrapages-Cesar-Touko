@@ -1,4 +1,4 @@
-Retrospective - sprint click & collect
+1.Retrospective - sprint click & collect
 
 *Ce qui a  bien marché
 
@@ -14,8 +14,11 @@ Retrospective - sprint click & collect
  *Ce qu'on améliore
 
  -Découper les grosses user stories en sous-tâches dès le début
+ 
+2. Lien vidéo 
+https://www.loom.com/share/4dafe6d310d846f69c6925b0e34131ae
 
-Sources et recherches
+3.Sources et recherches
 
 -https://www.mongoo.fr/la-defense
 -https://docs.github.com/en/issues/planning-and-tracking-with-projects

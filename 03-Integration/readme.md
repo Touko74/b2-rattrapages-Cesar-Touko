@@ -2,3 +2,4 @@
 
 - La méthode utilisée est la compilation Sass en temps réel grâce à l'extension Live Sass Compiler de VS Code. Cette méthode consiste à surveiller les fichiers SCSS du projet et à générer automatiquement un fichier CSS à chaque sauvegarde. Cela permet de travailler avec les fonctionnalités avancées de Sass  tout en obtenant un fichier CSS standard utilisable par le navigateur.
 
+Vidéo de demo:https://www.loom.com/share/998f5197e6f7419799d7438ec32f0131
