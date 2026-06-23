@@ -1,0 +1,55 @@
+#composer {
+  padding: $spacing-xl $spacing-lg;
+  text-align: center;
+
+  h2 {
+    color: $color-primary;
+    font-family: $font-primary;
+    margin-bottom: $spacing-lg;
+  }
+
+  #salad-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+
+    label {
+      text-align: left;
+      font-family: $font-secondary;
+      color: $color-text;
+      font-weight: 600;
+    }
+
+    select {
+      width: 100%;
+      padding: $spacing-sm $spacing-md;
+      border: 1px solid $color-primary;
+      border-radius: $border-radius;
+      font-family: $font-secondary;
+      color: $color-text;
+      background-color: $color-white;
+      outline: none;
+
+      &:focus {
+        border-color: $color-accent;
+      }
+    }
+
+    .btn {
+      margin-top: $spacing-sm;
+      padding: $spacing-sm $spacing-lg;
+      background-color: $color-primary;
+      color: $color-white;
+      border: none;
+      border-radius: $border-radius;
+      font-family: $font-secondary;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-accent;
+      }
+    }
+  }
+}

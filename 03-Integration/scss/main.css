@@ -226,4 +226,52 @@ footer .Copie {
   footer .Contact-footer {
     width: 100%;
   }
+}
+#composer {
+  padding: 64px 32px;
+  text-align: center;
+}
+#composer h2 {
+  color: #4a7c59;
+  font-family: "Georgia", serif;
+  margin-bottom: 32px;
+}
+#composer #salad-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#composer #salad-form label {
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+#composer #salad-form select {
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #4a7c59;
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+  color: #2c2c2c;
+  background-color: #ffffff;
+  outline: none;
+}
+#composer #salad-form select:focus {
+  border-color: #e8704a;
+}
+#composer #salad-form .btn {
+  margin-top: 8px;
+  padding: 8px 32px;
+  background-color: #4a7c59;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+}
+#composer #salad-form .btn:hover {
+  background-color: #e8704a;
 }/*# sourceMappingURL=main.css.map */
