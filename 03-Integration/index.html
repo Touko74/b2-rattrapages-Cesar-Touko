@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mongoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <nav>
+    <img src="logo.png" alt="Mongoo" class="logo">
+    <ul>
+      <li><a href="#composer">Composer sa salade</a></li>
+      <li><a href="#restaurants">Restaurants</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+    <h1>La salade à votre façon</h1>
+    <p>Composez votre salade en choisissant parmi une variété d'ingrédients frais et savoureux.</p>
+    <a href="#composer" class="btn">Commencer</a>
+    <img src="salad.jpg" alt="Salade fraîche" class="hero-image">
+</section>
+
+<section id="composer">
+    <h2>Composer sa salade</h2>
+    <form id="salad-form">
+        <label for="base">Choisissez votre base :</label>
+        <select id="base" name="base">
+            <option value="laitue">Laitue</option>
+            <option value="epinards">Épinards</option>
+            <option value="roquette">Roquette</option>
+        </select>
+
+        <label for="proteins">Choisissez vos protéines :</label>
+        <select id="proteins" name="proteins" multiple>
+            <option value="poulet">Poulet</option>
+            <option value="tofu">Tofu</option>
+            <option value="oeufs">Œufs</option>
+        </select>
+
+        <label for="toppings">Choisissez vos garnitures :</label>
+        <select id="toppings" name="toppings" multiple>
+            <option value="tomates">Tomates</option>
+            <option value="concombres">Concombres</option>
+            <option value="avocat">Avocat</option>
+        </select>
+        <button type="submit" class="btn">Valider ma salade</button>
+    </form>
+</section>
+
+<section id="restaurants">
+  <h2>Nos restaurants</h2>
+  <div class="restaurants-grid">
+    <div class="restaurant-card">
+      <h3>Mongoo Paris la défense </h3>
+      <p>22 allé de l'arche 92400 Courbevoie</p>
+      <p>Lun - Sam : 11h - 22h</p>
+      <a href="https://maps.google.com" target="_blank" class="btn">Itinéraire</a>
+    </div>
+    <div class="restaurant-card">
+      <h3>Mongoo Paris 2e</h3>
+      <p>33 rue de washington, 75008 Paris</p>
+      <p>Lun - Sam : 11h - 22h</p>
+      <a href="https://maps.google.com" target="_blank" class="btn">Itinéraire</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
