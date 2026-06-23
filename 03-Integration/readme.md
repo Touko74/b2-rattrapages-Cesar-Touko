@@ -1,21 +1,4 @@
-Retrospective - sprint click & collect
+- J'ai décidé de créer des  fichiers Scss distincts pour chaque section pour une meilleure lisibilité du code.Un fichier dédié au composants réutilisableS a été aussi ajouter pour ne pas repéter les memes valeurs. Ces fichiers sont importés dans main.css qui est le seul fichier compilé en css.
 
-*Ce qui a  bien marché
+- La méthode utilisée est la compilation Sass en temps réel grâce à l'extension Live Sass Compiler de VS Code. Cette méthode consiste à surveiller les fichiers SCSS du projet et à générer automatiquement un fichier CSS à chaque sauvegarde. Cela permet de travailler avec les fonctionnalités avancées de Sass  tout en obtenant un fichier CSS standard utilisable par le navigateur.
 
-- Le parcours de paiement a été livré dans les délais
--La communication dans l'equipe était fluide ce qui a permis de resourdre les problemes plus rapidements
- 
- * Ce qui n'a pas marché
-
- -La fonctionnalité de gestion des créneaux n'a pas pu être terminée dans le sprint
- -L'intégration du mode de paiement a mis plus long que prévu et a décalé deux autres taches
-
-
- *Ce qu'on améliore
-
- -Découper les grosses user stories en sous-tâches dès le début
-
-Sources et recherches
-
--https://www.mongoo.fr/la-defense
--https://docs.github.com/en/issues/planning-and-tracking-with-projects
