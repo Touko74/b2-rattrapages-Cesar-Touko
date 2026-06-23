@@ -1,0 +1,86 @@
+footer {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: $spacing-xl $spacing-lg $spacing-md;
+
+  .contenu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: $spacing-lg;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo-footer {
+    .logo {
+      width: 120px;
+      margin-bottom: $spacing-sm;
+    }
+
+    p {
+      margin: 0;
+      color: rgba($color-white, 0.8);
+      font-family: $font-secondary;
+    }
+  }
+
+  .liens-footer,
+  .Contact-footer {
+    h4 {
+      margin-bottom: $spacing-md;
+      font-family: $font-primary;
+      font-size: 1.1rem;
+    }
+
+    p,
+    li {
+      margin-bottom: $spacing-sm;
+      font-family: $font-secondary;
+    }
+  }
+
+  .liens-footer {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+
+  .Copie {
+    text-align: center;
+    margin-top: $spacing-lg;
+    padding-top: $spacing-md;
+    border-top: 1px solid rgba($color-white, 0.2);
+    color: rgba($color-white, 0.7);
+    font-size: 0.9rem;
+    font-family: $font-secondary;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  footer {
+    .contenu-footer {
+      flex-direction: column;
+      gap: $spacing-lg;
+      text-align: center;
+    }
+
+    .logo-footer,
+    .liens-footer,
+    .Contact-footer {
+      width: 100%;
+    }
+  }
+}

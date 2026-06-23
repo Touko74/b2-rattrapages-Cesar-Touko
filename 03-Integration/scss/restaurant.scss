@@ -1,0 +1,53 @@
+#restaurants {
+  padding: $spacing-xl $spacing-lg;
+  background-color: $color-secondary;
+  text-align: center;
+
+  h2 {
+    color: $color-primary;
+    margin-bottom: $spacing-lg;
+    font-family: $font-primary;
+  }
+
+  .restaurants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: $spacing-lg;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .restaurant-card {
+    background-color: $color-white;
+    padding: $spacing-lg;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    h3 {
+      color: $color-primary;
+      margin-bottom: $spacing-md;
+      font-family: $font-primary;
+    }
+
+    p {
+      color: $color-text-light;
+      margin-bottom: $spacing-sm;
+      font-family: $font-secondary;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: $spacing-md;
+      padding: $spacing-sm $spacing-md;
+      background-color: $color-accent;
+      color: $color-white;
+      text-decoration: none;
+      border-radius: $border-radius;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: darken($color-accent, 10%);
+      }
+    }
+  }
+}
