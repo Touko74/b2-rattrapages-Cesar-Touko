@@ -1,0 +1,10 @@
+header {
+  background-color: $color-primary;
+  padding: $spacing-md $spacing-lg;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
