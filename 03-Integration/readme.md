@@ -14,3 +14,8 @@ Retrospective - sprint click & collect
  *Ce qu'on améliore
 
  -Découper les grosses user stories en sous-tâches dès le début
+
+Sources et recherches
+
+-https://www.mongoo.fr/la-defense
+-https://docs.github.com/en/issues/planning-and-tracking-with-projects
