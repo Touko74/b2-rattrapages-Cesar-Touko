@@ -1,0 +1,51 @@
+#hero {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xl;
+  padding: $spacing-xl $spacing-lg;
+  background-color: $color-secondary;
+}
+.hero-text {
+    flex: 1;
+
+    h1 {
+      font-family: $font-primary;
+      color: $color-text;
+      font-size: 3rem;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      font-family: $font-secondary;
+      color: $color-text-light;
+      font-size: 1.2rem;
+      margin-bottom: $spacing-lg;
+    }
+
+    .btn {
+      background-color: $color-accent;
+      color: $color-white;
+      padding: $spacing-sm $spacing-lg;
+      border-radius: $border-radius;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .hero-image {
+    flex: 1;
+    width: 100%;
+    border-radius: $border-radius;
+    object-fit: cover;
+    height: 500px;
+  }
+
+
+
+
+
+
+
